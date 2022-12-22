@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap");
+
+:root {
+  --main-bg-color: #2b348a;
+  --sec-bg-color: #ffffff;
+  --clg-green: #6fbf3d;
+  --clg-gray: #dde4e5;
+}
+
+body {
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(245, 245, 245);
+  overflow-x: hidden;
+}
+
+/* for small screens */
+@media (max-width: 768px) {
+  .nav-brand-container {
+    /* width: 60px; */
+  }
+
+  .nav-brand-img {
+    width: 30px;
+  }
+
+  .nav-brand-container-label {
+    font-size: 0.4em;
+  }
+
+  .top-banner {
+    width: 90%;
+  }
+}
+
+/* for big screens */
+@media (min-width: 768px) {
+  .nav-brand-container {
+    width: 120px;
+  }
+
+  .nav-brand-img {
+    width: 60px;
+  }
+
+  .nav-brand-container-label {
+    font-size: 0.6em;
+  }
+
+  .carousel-item-cover {
+    height: 80vh;
+  }
+
+  .top-banner {
+    width: 50%;
+  }
+}
+
+.nav-brand-container-label {
+  color: var(--main-bg-color);
+  font-family: "Bigshot One", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big-menu-text {
+  color: #5a5a5a;
+}
+
+.carousel-caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  padding: 1em;
+  padding-top: 2em;
+  background-image: linear-gradient(to top, #0000008a, #0000001a);
+}
+
+.text-color-main {
+  color: var(--main-bg-color);
+}
+
+.new-update {
+  color: red;
+  font-weight: bold;
+  animation: slowblink 0.5s linear infinite alternate-reverse;
+}
+
+@keyframes slowblink {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 10%;
+  }
+}
