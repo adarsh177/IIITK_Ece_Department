@@ -1,0 +1,8 @@
+.top-banner {
+  width: 100%;
+  background-image: url(../images/covercarousel/carousel1.jpg);
+}
+
+.top-banner-textcontainer {
+  background-color: rgba(0, 0, 0, 0.4);
+}

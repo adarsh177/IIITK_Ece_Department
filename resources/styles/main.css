@@ -29,7 +29,7 @@ body {
     font-size: 0.5em;
   }
 
-  .maincontainer{
+  .maincontainer {
     padding: 0 !important;
   }
 }
@@ -44,7 +44,7 @@ body {
   }
 
   .nav-brand-container-label {
-    font-size: 0.6em;
+    font-size: 0.75em;
   }
 
   .carousel-item-cover {
@@ -62,6 +62,11 @@ body {
 
 .nav-brand-container-label {
   color: var(--main-bg-color);
+  font-weight: 600;
+  /* font-family: "Bigshot One", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.nav-brand-container-label-head {
   font-family: "Bigshot One", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -84,7 +89,7 @@ body {
   text-align: left;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
   font-weight: 800;
 }
 
